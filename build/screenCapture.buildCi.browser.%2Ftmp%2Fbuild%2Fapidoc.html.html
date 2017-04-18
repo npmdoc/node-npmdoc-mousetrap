@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/ccampbell/mousetrap#readme"
-
-    >mousetrap (v1.6.1)</a>
+    <a href="https://github.com/ccampbell/mousetrap#readme">mousetrap (v1.6.1)</a>
 </h1>
 <h4>Simple library for handling keyboard shortcuts</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.mousetrap">module mousetrap</a><ol>
 
@@ -99,18 +92,18 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
-    &#x27;use strict&#x27;;
+    'use strict';
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON(&#x27;package.json&#x27;),
+        pkg: grunt.file.readJSON('package.json'),
 
         mocha: {
             options: {
-                reporter: &#x27;Nyan&#x27;,
+                reporter: 'Nyan',
                 run: true
             },
             mousetrap: {
-                src: [&#x27;tests/mousetrap.html&#x27;]
+                src: ['tests/mousetrap.html']
             }
         },
 
@@ -123,25 +116,25 @@
             },
             generic: {
                 src: [
-                    &#x27;mousetrap.js&#x27;
+                    'mousetrap.js'
                 ]
             },
             plugins: {
                 src: [
-                    &#x27;plugins/**/*.js&#x27;,
-                    &#x27;!plugins/**/tests/**&#x27;,
-                    &#x27;!plugins/**/*.min.js&#x27;
+                    'plugins/**/*.js',
+                    '!plugins/**/tests/**',
+                    '!plugins/**/*.min.js'
                 ]
             }
         }
     });
 
-    grunt.loadNpmTasks(&#x27;grunt-complexity&#x27;);
-    grunt.loadNpmTasks(&#x27;grunt-mocha&#x27;);
+    grunt.loadNpmTasks('grunt-complexity');
+    grunt.loadNpmTasks('grunt-mocha');
 
-    grunt.registerTask(&#x27;default&#x27;, [
-        &#x27;complexity&#x27;,
-        &#x27;mocha&#x27;
+    grunt.registerTask('default', [
+        'complexity',
+        'mocha'
     ]);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -162,18 +155,18 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
-    &#x27;use strict&#x27;;
+    'use strict';
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON(&#x27;package.json&#x27;),
+        pkg: grunt.file.readJSON('package.json'),
 
         mocha: {
             options: {
-                reporter: &#x27;Nyan&#x27;,
+                reporter: 'Nyan',
                 run: true
             },
             mousetrap: {
-                src: [&#x27;tests/mousetrap.html&#x27;]
+                src: ['tests/mousetrap.html']
             }
         },
 
@@ -186,25 +179,25 @@
             },
             generic: {
                 src: [
-                    &#x27;mousetrap.js&#x27;
+                    'mousetrap.js'
                 ]
             },
             plugins: {
                 src: [
-                    &#x27;plugins/**/*.js&#x27;,
-                    &#x27;!plugins/**/tests/**&#x27;,
-                    &#x27;!plugins/**/*.min.js&#x27;
+                    'plugins/**/*.js',
+                    '!plugins/**/tests/**',
+                    '!plugins/**/*.min.js'
                 ]
             }
         }
     });
 
-    grunt.loadNpmTasks(&#x27;grunt-complexity&#x27;);
-    grunt.loadNpmTasks(&#x27;grunt-mocha&#x27;);
+    grunt.loadNpmTasks('grunt-complexity');
+    grunt.loadNpmTasks('grunt-mocha');
 
-    grunt.registerTask(&#x27;default&#x27;, [
-        &#x27;complexity&#x27;,
-        &#x27;mocha&#x27;
+    grunt.registerTask('default', [
+        'complexity',
+        'mocha'
     ]);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -219,3 +212,4 @@
     ]
 </div>
 </div>
+</body></html>
