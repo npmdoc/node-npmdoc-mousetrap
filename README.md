@@ -1,6 +1,6 @@
 # npmdoc-mousetrap
 
-#### api documentation for  [mousetrap (v1.6.1)](https://github.com/ccampbell/mousetrap#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mousetrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mousetrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mousetrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mousetrap)
+#### basic api documentation for  [mousetrap (v1.6.1)](https://github.com/ccampbell/mousetrap#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mousetrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mousetrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mousetrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mousetrap)
 
 #### Simple library for handling keyboard shortcuts
 
@@ -67,7 +67,8 @@
     "scripts": {
         "test": "grunt mocha"
     },
-    "version": "1.6.1"
+    "version": "1.6.1",
+    "bin": {}
 }
 ```
 
